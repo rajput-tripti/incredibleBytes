@@ -1,0 +1,9 @@
+.navbar-color{
+    background-color: beige;
+}
+
+.img-container {
+    display:flex;
+     flex-wrap: wrap;
+    align-content: space-evenly;
+    }
