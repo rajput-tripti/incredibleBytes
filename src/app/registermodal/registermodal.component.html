@@ -1,22 +1,80 @@
-<h1 mat-dialog-title>You are from {{data.name}}</h1>
+<h1 mat-dialog-title>Register</h1>
 
-<div mat-dialog-content>
-
-    <p>What's your favorite city?</p>
-    <mat-form-field>
-        <mat-label>Favorite City</mat-label>
-        <input matInput >
-    </mat-form-field>
-
-    <p>Your favorite food?</p>
-    <mat-form-field>
-        <mat-label>Favorite Food</mat-label>
-        <input matInput >
-    </mat-form-field>
-
-</div>
-
-<div mat-dialog-actions>
-    <button mat-button (click)="onNoClick()">Get Food</button>
-    <button mat-button  cdkFocusInitial>Get City</button>
-</div>
+<div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Name of the individual/organization">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Address</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Full address">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">City</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Enter the City">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Phone Number</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Enter phone number">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Email Id</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Enter email id">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Password</label>
+    <div class="control">
+      <input class="input" type="password" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Type Of Restaurant</label>
+    <div class="control">
+      <div class="select">
+        <select>
+          <option>Veg</option>
+          <option>Non Veg</option>
+          <option>Both</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Kind Of Food</label>
+    <div class="control">
+      <div class="select">
+        <select>
+          <option>Edible</option>
+          <option>Non Edible</option>
+          <option>Both</option>
+        </select>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="field">
+    <div class="control">
+      <label class="checkbox">
+        <input type="checkbox">
+        I agree to the <a href="#">terms and conditions</a>
+      </label>
+    </div>
+  </div>
+  
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-success">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-link is-light">Cancel</button>
+    </div>
+  </div>

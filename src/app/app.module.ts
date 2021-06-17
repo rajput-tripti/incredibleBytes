@@ -17,6 +17,7 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
 import { HomeComponent } from './home/home.component';
 import { NgoListComponent } from './ngo-list/ngo-list.component';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { MatDividerModule } from '@angular/material/divider';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ],
   exports: [
     MatDividerModule,

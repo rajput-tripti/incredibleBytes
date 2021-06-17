@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
 
   openRegisterDialog() : void {
     const dialogRef = this.dialog.open(RegisterModalComponent, {
-      width: '250px',
+      width: '500px',
       data: {  }
     });
 
