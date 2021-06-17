@@ -7,3 +7,7 @@
      flex-wrap: wrap;
     align-content: space-evenly;
     }
+
+.navbar-item img {
+    max-height: 3.7rem;
+}

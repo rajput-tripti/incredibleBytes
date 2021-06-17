@@ -1,0 +1,17 @@
+.margin-container{
+    margin: 10px 224px;
+    width: 1344px;
+}
+
+.notification.is-primary {
+    background-color: rgb(243, 243, 234);
+    color: black;
+}
+
+.strong-font{
+    font-size: 20px;
+}
+
+.zero-padding{
+    padding: 0;
+}
