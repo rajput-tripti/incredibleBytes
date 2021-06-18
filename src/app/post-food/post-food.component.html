@@ -3,50 +3,96 @@
 
 
     <div class="notification mt-3 mb-3 custom-margin">
-        <strong class="strong-font">Raise funds for an Emergency situation</strong>
+        <strong class="strong-font">Post availability of Food</strong>
     </div>
-    <div class="field">
-        <label class="label">Name</label>
-        <div class="control">
-        <input class="input" type="text" placeholder="Name of the individual/organization">
+    <div class="columns">
+        <div class="column">
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Name of the individual/organization">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label">Description</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Food description">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="field">
-        <label class="label">Address</label>
-        <div class="control">
-        <input class="input" type="text" placeholder="Full address">
+
+    <div class="columns">
+        <div class="column">
+            <div class="field">
+                <label class="label">Prepared At</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Time when food was prepared">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label">Consumable Till</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Time till food can be consumed">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="field">
-        <label class="label">Phone Number</label>
-        <div class="control">
-        <input class="input" type="text" placeholder="Enter phone number">
+
+    <div class="columns">
+        <div class="column">
+            <div class="field">
+                <label class="label">Contact Number</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Contact for order of food">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label">Quantity</label>
+                <div class="control">
+                <input class="input" type="text" placeholder="Quantity of food available">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="field">
-        <label class="label">Email Id</label>
-        <div class="control">
-        <input class="input" type="text" placeholder="Enter email id">
+
+    <div class="columns">
+        <div class="column">
+            <div class="field">
+                <label class="label">Food Type</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                        <option>Vegetarian</option>
+                        <option>Non Vegetarian</option>
+                        <option>Both</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label">Shelf Life</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                        <option>10 hrs</option>
+                        <option>10-20 hrs</option>
+                        <option>More than 24 Hrs</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="field">
-        <label class="label">Amount to be donated</label>
-        <div class="control">
-        <input class="input" type="text" placeholder="Enter amount">
-        </div>
-    </div>
-    <div class="field">
-        <label class="label">Type Of Individual</label>
-        <div class="control">
-        <div class="select">
-            <select>
-            <option>Individual</option>
-            <option>Organization</option>
-            <option>NGOs</option>
-            </select>
-        </div>
-        </div>
-    </div>
+
     <div class="field">
         <div class="control">
         <label class="checkbox">
@@ -58,10 +104,10 @@
     
     <div class="field is-grouped">
         <div class="control">
-        <button class="button is-success">Make Payment</button>
+        <button class="button is-success">Post</button>
         </div>
         <div class="control">
-        <button mat-dialog-close class="button is-link is-light">Discard</button>
+        <button mat-dialog-close class="button is-link is-light">Cancel</button>
         </div>
     </div>
 
