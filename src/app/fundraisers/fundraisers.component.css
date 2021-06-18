@@ -1,0 +1,11 @@
+.ctn-width{
+    width: 700px;
+}
+
+.strong-font{
+    font-size: 20px;
+}
+.custom-margin{
+    display: flex;
+    justify-content: center;
+}

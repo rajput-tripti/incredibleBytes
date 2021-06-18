@@ -1,0 +1,27 @@
+
+.custom-margin1{
+    display: flex;
+    justify-content: center;
+    background-color: #cbdcaf;
+}
+
+.custom-margin2{
+    display: flex;
+    justify-content: center;
+    background-color: #dce6cd;
+}
+
+.center{
+    color: #1016da;
+    font-size: 1.2em;
+    margin: 110px;
+}
+
+.ctn-width{
+    width: 700px;
+}
+
+.ctn-width2{
+    width: 1310px;
+    margin-left: 225px;
+}

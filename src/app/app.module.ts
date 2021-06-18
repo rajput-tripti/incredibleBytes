@@ -18,6 +18,10 @@ import { HomeComponent } from './home/home.component';
 import { NgoListComponent } from './ngo-list/ngo-list.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSelectModule } from '@angular/material/select';
+import { PostFoodComponent } from './post-food/post-food.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { FundraisersComponent } from './fundraisers/fundraisers.component';
 
 
 @NgModule({
@@ -29,7 +33,10 @@ import { MatSelectModule } from '@angular/material/select';
     RestaurantListComponent,
     LoginModalComponent,
     HomeComponent,
-    NgoListComponent
+    NgoListComponent,
+    PostFoodComponent,
+    AboutUsComponent,
+    FundraisersComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,8 @@ import { MatSelectModule } from '@angular/material/select';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
-    MatSelectModule
+    MatSelectModule,
+    HttpClientModule
   ],
   exports: [
     MatDividerModule,

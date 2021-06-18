@@ -1,4 +1,4 @@
-<nav class="panel">
+<!-- <nav class="panel">
     <p class="panel-heading">
       List Of NGOs
     </p>
@@ -52,3 +52,34 @@
       </button>
     </div>
   </nav>
+
+ -->
+
+ <div class="container " >
+  <div class="notification mt-3 mb-3 custom-margin">
+      <strong class="strong-font">List Of NGOs</strong>
+    </div>
+</div>
+
+<div *ngFor="let ngo of ngoList">
+  
+  <div class="container " >
+    <div class="notification mt-3 mb-3 custom-margin">
+      <div class="columns">
+        <div class="column">
+            <img src="assets/img/ngo1.png">
+        </div>
+        <div class="column">
+          <p class="title">{{ngo.name}}</p>
+        <p class="subtitle mb-0">{{ngo.address}} {{ngo.city}} {{ngo.pincode}}</p>
+        <p class="subtitle mb-0">{{ngo.contact}}</p>
+        <p class="subtitle mb-0">{{ngo.email}}</p>
+        <p class="subtitle mb-0">Type : {{ngo.type}}</p>
+        </div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+      </div>
+  </div>
+</div>
+  
