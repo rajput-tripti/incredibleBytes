@@ -44,7 +44,7 @@ Idea came up when we saw leftover food from restaurants getting dumped in landfi
 
 ## Long description
 
-[More detail is available here](./docs/DESCRIPTION.md)
+[More detail is available here](./Description.md)
 
 ## Project roadmap
 
