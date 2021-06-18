@@ -39,7 +39,7 @@ Idea came up when we saw leftover food from restaurants getting dumped in landfi
 
 ## Demo video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](./video-banner.png)](https://www.youtube.com/watch?v=Dsy_HmIZ1GM&ab_channel=IncredibleByte)
 
 
 ## Long description
