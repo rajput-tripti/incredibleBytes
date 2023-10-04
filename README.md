@@ -85,10 +85,6 @@ Contribute to this open-source project via [github](https://github.com/rajput-tr
 ## Authors
 
 - **Tripti Rajput** - [rajput-tripti](https://github.com/rajput-tripti/)
-- **Yashasvi Wankhede** 
-- **Shalaka Bhatt** 
-- **Rajni Saini**
-- **Shrutika Birje**
 
 ## License
 
